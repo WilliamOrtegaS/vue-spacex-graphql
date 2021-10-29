@@ -1,0 +1,9 @@
+query users ($offset: Int){
+users(limit: 10, offset: $offset) {
+    id
+    name
+    rocket
+    twitter
+  }
+}
+
